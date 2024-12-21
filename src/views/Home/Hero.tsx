@@ -3,13 +3,13 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-      <div className="max-w-[1440px] w-full mx-auto ">
-        <div className="flex justify-between items-center md:flex-row flex-col text-[white]">
-          <div className="h-full md:w-1/2 w-full max-lg:px-7 max-sm:px-0">
-            <div className="md:max-w-[70%] mx-auto md:px-0 md:py-0 max-md:w-[75%]">
+      <div className="main-container ">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 text-[white]">
+          <div className=" ">
+            <div className=" ">
               <h1 className="lg:text-5xl md:text-3xl font-title text-2xl font-bold pt-24 max-w-[440px] max-lg:text-[25px] max-sm:pt-9">
                 I am your <span className="text-sky-200">{`full-stack`}</span>{" "}
-                {`wizard,`} turning{" "}
+                {`wizard,`} turning
                 <span className="text-sky-200">web dreams</span> into reality.
               </h1>
               <div className="mt-[-240px] ml-[80px] absolute max-sm:ml-[20px] max-sm:mt-[-120px]">
@@ -32,18 +32,18 @@ const Hero = () => {
             </div>
           </div>
 
-          <div>
+          <div className="w-full flex justify-center items-center">
             <Image
               src="/Image/img1.png"
               alt="my image"
-             
+              layout="responsive"
               width={750}
               height={100}
-             
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
-        <div className="line flex justify-center items-center flex-wrap mt-[-190px] max-md:hidden">
+        <div className="line flex justify-center items-center  ">
           <Image
             src="/Image/Line 1.png"
             alt="my image"

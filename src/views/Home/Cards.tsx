@@ -20,7 +20,7 @@ const Cards = () => {
               height={60}
               className="rounded-t-lg"
             />
-            <div className=" text flex  rounded-b-lg max-sm:h-[100px]">
+            <div className="text flex  rounded-b-lg z-10 max-sm:h-[130px] ">
               <Image
                 src="/Image/Group 1.png"
                 alt="my image"
@@ -31,13 +31,13 @@ const Cards = () => {
 
               <div>
                 <p
-                  className="text-[20px] mb-[16px]  mt-5 leading-5
-              max-w-[200px] pl-4  max-sm:text-[16px] max-sm:pl-0"
+                  className="text-[20px] mb-[16px]  lg:mt-5 leading-5
+              max-w-[200px] pl-4  max-sm:text-[16px]  "
                 >
                   1 year in maxinux solution
                 </p>
 
-                <p className=" text-[12px]  max-w-[350px] pl-4 max-sm:pl-0 max-sm:pb-5 max-sm:text-[9px]">
+                <p className=" text-[12px]  max-w-[350px] pl-4  max-sm:pb-5 max-sm:text-[9px]">
                   {" "}
                   {`have 1 year of experience at Cubix Solutions, honing
                                     my skills in web development`}
@@ -54,7 +54,7 @@ const Cards = () => {
               className="rounded-t-lg"
             />
             <div
-              className='text1 flex  rounded-t-lg"
+              className='text1 flex  rounded-b-lg"
                '
             >
               <div>
@@ -103,9 +103,9 @@ const Cards = () => {
                 />
               </div>
               <div >
-                <p className="lg:text-[20px] mb-[16px]  mt-4 leading-5  pl-4">
+                <p className="lg:text-[12px] mb-[16px]  mt-4 leading-5  pl-4">
                   {`2+ year in Freelancing`}</p>
-                <p className=" lg:text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px]">
+                <p className="text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px]">
                   {" "}
                   {`I have gained invaluable experience over the past year
                                     through freelancing, working on diverse projects and expanding my skill set.`}
@@ -121,7 +121,7 @@ const Cards = () => {
               height={60}
               className="rounded-t-lg"
             />
-            <div className=" text3 flex   rounded-t-lg z-10">
+            <div className=" text3 flex   rounded-b-lg z-10">
               <div>
                 <Image
                   src="/Image/pic4 (1).png"

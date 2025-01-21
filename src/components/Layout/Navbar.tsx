@@ -12,8 +12,13 @@ const Navbar = () => {
     <div>
       <div className="bg-[#1A0B2E] text-white">
         <div
+<<<<<<< HEAD
           className=" container flex justify-between py-7
           max-sm:py-7 max-sm:px-12"
+=======
+          className="flex justify-between main-container  flex-wrap w-full  py-7  
+          "
+>>>>>>> 3434bb0c9c0c795b83e838121c2497630a8d0fd6
         >
           <div className="flex">
             <div className="text-[35px] font-semibold">HK</div>
@@ -62,7 +67,7 @@ const Navbar = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16" 
+                    d="M4 6h16M4 12h16M4 18h16"
                   />
                 </svg>
               )}

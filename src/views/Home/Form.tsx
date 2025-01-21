@@ -1,9 +1,9 @@
 const Form = () => {
   return (
     <div>
-      <div className="max-w-[1440px] w-full mx-auto ">
+      <div className="main-container">
         <div className=" justify-center items-center md:flex-row flex-col  text-[white] ">
-          <div className="flex justify-end   max-lg:items-center  max-md:items-center gap-16 mt-12  text-white max-lg:flex-col  max-sm:ml-0 max-sm:flex  max-sm:justify-center max-sm:items-center  ">
+          <div className="flex justifycenter   items-center gap-16 mt-12  text-white max-lg:flex-col  max-sm:ml-0 max-sm:flex  max-sm:justify-center max-sm:items-center  ">
             <div>
               <h1
                 className="lg:text-3xl md:text-3xl font-title  
@@ -36,7 +36,7 @@ const Form = () => {
                 Lets Get Started
               </button>
             </div>
-             </div>
+          </div>
         </div>
       </div>
     </div>

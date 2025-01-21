@@ -3,6 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
+<<<<<<< HEAD
       <div className="text-[white]">
         <div className="container grid  items-center md:grid-cols-2 grid-cols-1  relative">
           <div>
@@ -18,8 +19,15 @@ const Hero = () => {
                 />
               </div>
               <h1 className="lg:text-5xl md:text-5xl font-bold pt-24  max-md:text-2xl max-w-[440px]  max-sm:pt-9">
+=======
+      <div className="main-container ">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 text-[white]">
+          <div className=" ">
+            <div className=" ">
+              <h1 className="lg:text-5xl md:text-3xl font-title text-2xl font-bold pt-24 max-w-[440px] max-lg:text-[25px] max-sm:pt-9">
+>>>>>>> 3434bb0c9c0c795b83e838121c2497630a8d0fd6
                 I am your <span className="text-sky-200">{`full-stack`}</span>{" "}
-                {`wizard,`} turning{" "}
+                {`wizard,`} turning
                 <span className="text-sky-200">web dreams</span> into reality.
               </h1>
            
@@ -34,8 +42,13 @@ const Hero = () => {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div>
           <Image
+=======
+          <div className="w-full flex justify-center items-center">
+            <Image
+>>>>>>> 3434bb0c9c0c795b83e838121c2497630a8d0fd6
               src="/Image/img1.png"
               alt="my image"
               layout="responsive"
@@ -45,7 +58,11 @@ const Hero = () => {
             />
           </div>
         </div>
+<<<<<<< HEAD
         <div className="line flex justify-center items-center  mt-[-190px] max-md:hidden "> 
+=======
+        <div className="line flex justify-center items-center  ">
+>>>>>>> 3434bb0c9c0c795b83e838121c2497630a8d0fd6
           <Image
             src="/Image/Line 1.png"
             alt="my image"

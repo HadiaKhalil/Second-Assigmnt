@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 
 const Navbar = () => {
@@ -11,15 +12,9 @@ const Navbar = () => {
   return (
     <div>
       <div className="bg-[#1A0B2E] text-white">
-        <div
-<<<<<<< HEAD
-          className=" container flex justify-between py-7
-          max-sm:py-7 max-sm:px-12"
-=======
-          className="flex justify-between main-container  flex-wrap w-full  py-7  
-          "
->>>>>>> 3434bb0c9c0c795b83e838121c2497630a8d0fd6
-        >
+        {/* Navbar Container */}
+        <div className="container flex justify-between py-7 max-sm:py-7 max-sm:px-12">
+          {/* Logo Section */}
           <div className="flex">
             <div className="text-[35px] font-semibold">HK</div>
             <div className="leading-[15px] pt-3 font-serif">
@@ -28,19 +23,23 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className=" pt-4 gap-8  hidden md:flex  font-serif  ">
-            <p className="cursor-pointer" >Home</p>
+          {/* Navigation Links (Desktop View) */}
+          <div className="pt-4 gap-8 hidden md:flex font-serif">
+            <p className="cursor-pointer">Home</p>
             <p className="cursor-pointer">About</p>
             <p className="cursor-pointer">Projects</p>
             <p className="cursor-pointer">Contact</p>
           </div>
+
+          {/* Hamburger Menu (Mobile View) */}
           <div className="md:hidden flex items-center">
             <button
               className="inline-flex items-center justify-center p-2 rounded-md text-white md:text-white
-                   hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white "
+                hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={ToggleNav}
             >
               {isClick ? (
+                // Close Icon
                 <svg
                   className="h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,6 +55,7 @@ const Navbar = () => {
                   />
                 </svg>
               ) : (
+                // Hamburger Icon
                 <svg
                   className="h-6 w-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,19 +75,20 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         {isClick && (
-          <div className="md:hidden text-white bg-black  ">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
+          <div className="md:hidden text-white bg-black">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <p className="text-white hover:bg-white hover:text-black rounded-lg p-2 cursor-pointer">
                 Home
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2 cursor-pointer">
                 About
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2 cursor-pointer">
                 Projects
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2 cursor-pointer">
                 Contact
               </p>
             </div>

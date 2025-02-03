@@ -4,9 +4,9 @@ import Image from "next/image"
 const Cards = () => {
   return (
     <div>
-      <div className="container mx-auto ">
+      <div className="container mx-auto font-serif">
         <h1
-          className=" lg:text-3xl md:text-3xl px-2  text-white font-extrabold pt-2 "
+          className=" lg:text-3xl md:text-3xl px-2  text-white font-extrabold md:pt-2 "
         >
           Work Experience
         </h1>
@@ -70,8 +70,11 @@ Account health assurance.`}
                 />
               </div>
               <div>
-                <p className="text-[20px] mb-[16px]  mt-4 leading-5  max-w-[200px] pl-4 max-sm:text-[17px]  ">
-                Experience of 3 years With the vast 
+              <p
+                  className="text-[20px] mb-[16px]  lg:mt-5 leading-5
+              max-w-[200px] pl-4  max-sm:text-[16px]  "
+                >
+                  Experience of 3 years With the vast 
                 </p>
 
                 <p className="text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px] ">
@@ -110,8 +113,11 @@ Brand approval`}
                 />
               </div>
               <div >
-              <p className="text-[20px] mb-[16px]  mt-6 leading-5  max-w-[200px] pl-4">
-                Experience of 3 years With the vast 
+              <p
+                  className="text-[20px] mb-[16px]  lg:mt-5 leading-5
+              max-w-[200px] pl-4  max-sm:text-[16px]  "
+                >
+                  Experience of 3 years With the vast 
                 </p>
                 <p className="text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px]">
                   {" "}
@@ -141,10 +147,13 @@ White labelling`}
                 />
               </div>
               <div >
-                <p className="text-[20px] mb-[16px]  mt-6 leading-5  max-w-[200px] pl-4">
-                Experience of 3 years With the vast 
+              <p
+                  className="text-[20px] mb-[16px]  lg:mt-5 leading-5
+              max-w-[200px] pl-4  max-sm:text-[16px]  "
+                >
+                  Experience of 3 years With the vast 
                 </p>
-                <p className="text-[12px] max-w-[350px] pl-4  max-sm:text-[9px]">
+                <p className="text-[11px] max-w-[380px] pl-4  max-sm:text-[9px]">
                   {`Walmart Store A to Z management.
 Seller fulfilment, WFS,
 inventory Management,

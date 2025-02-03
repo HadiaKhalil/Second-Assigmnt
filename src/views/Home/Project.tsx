@@ -16,7 +16,7 @@ const Project = () => {
             Example Work
           </h1>
         </div>
-        <div className="relative flex justify-center ">
+        <div className="relative flex justify-center">
           <div className="ml-[530px]  mt-[-100px] absolute  max-md: max-sm:ml-[20px] max-sm:mt-[40px] ">
             <Image
               src="/Image/Gradient(3).png"
@@ -37,7 +37,7 @@ const Project = () => {
             />
           </div>
         </div>
-        <div className="flex justify-center relative max-md:flex-col max-md:items-center">
+        <div className="flex justify-center relative max-md:flex-col max-md:items-center gap-10">
           <div
             className="containtr  text-[13px] text-white max-w-[460px] w-[800px] rounded-t-lg rounded-b-lg
              h-[140px] py-7 px-10 mt-12 max-sm:w-[300px] max-sm:py-4 max-sm:px-10 max-sm:text-[11px] max-sm:mt-8 "

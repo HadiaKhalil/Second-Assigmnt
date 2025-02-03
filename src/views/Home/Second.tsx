@@ -3,7 +3,7 @@ import Image from "next/image";
 const Second = () => {
   return (
   <>
-   <div className='container text-white py-10'>
+   <div className='container text-white md:py-10 '>
 
           <div className='grid lg:grid-cols-2 gap-6 items-center w-full md:text-start text-center py-10'>
           
@@ -12,12 +12,12 @@ const Second = () => {
 <h1 className="lg:text-5xl md:text-3xl   text-2xl font-extrabold  text-white ">
          {` Hello !`}
 </h1>
-<h1 className="lg:text-4xl md:text-3xl text-2xl  font-extrabold  pt-2 max-w-[440px] max-lg:text-[25px] ">
+<h1 className="lg:text-4xl md:text-3xl text-2xl  font-extrabold  md:pt-2 max-w-[440px] max-lg:text-[25px] ">
   I am <span className="text-blue-800">Mazhar Iqbal.
     
   </span>
 </h1>
-<h3 className='sm:text-[14px] text-base md:w-[450px] py-8'>
+<h3 className='sm:text-[14px] text-[11px] md:w-[450px] sm:py-8 py-2'>
 
 {` I focus on store management, product optimization, and sales growth. Helping businesses 
 thrive in the online marketplace is my passion! With expertise in product listing, optimization, and store management, I help businesses maximize sales.

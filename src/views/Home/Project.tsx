@@ -10,10 +10,10 @@ const Project = () => {
              flex-wrap  max-md:w-[75%]  max-md:pl-0 max-md:mt-11 "
         >
           <h1 className=" text0 text-[17px] max-sm:text-[12px]">
-            Featured Project
+           Ecomerce
           </h1>
           <h1 className="text-[26px]  max-sm:text-[20px] font-bold font-title">
-            Example Project
+            Example Work
           </h1>
         </div>
         <div className="relative flex justify-center ">
@@ -42,36 +42,44 @@ const Project = () => {
             className="containtr  text-[13px] text-white max-w-[460px] w-[800px] rounded-t-lg rounded-b-lg
              h-[140px] py-7 px-10 mt-12 max-sm:w-[300px] max-sm:py-4 max-sm:px-10 max-sm:text-[11px] max-sm:mt-8 "
           >
-            {`A web app for visualizing personalized Spotify data. View your
-                        top artists, top tracks, recently played tracks, and detailed audio
-                        information about each track. Create and save new playlists of
-                        recommended tracks based on your existing playlists and more.`}
+            {`I am an expert in Private Labeling and the Wholesale Model, with 3 years of extensive experience in this field.
+I have a deep understanding of product sourcing, branding, 
+ and scaling businesses on  e-commerce platforms.
+I have hands-on experience with platforms like Amazon, eBay.`}
           </div>
           <div className="max-sm:w-[300px]">
             <Image
-              src="/Image/Mask group.png"
+              src="/images/Ecommerce.jpg"
               alt="img"
-              width={350}
-              height={200}
+              width={340}
+              height={300}
             />
           </div>
         </div>
-        <div className="flex  gap-3 ml-[-700px] justify-center max-sm:ml-52 max-sm:mt-4 max-sm:gap-3">
+        <div className="flex  gap-1 ml-[-670px] justify-center max-sm:ml-52 max-sm:mt-4 max-sm:gap-3">
           <div className="">
             <Image
-              src="/Image/Vector(2).png"
+              src="/images/118691_ebay_512x512.png"
               alt="img"
               width={20}
               height={20}
             />
           </div>
           <div className="">
-            <Image src="/Image/Group.png" alt="img" width={20} height={20} />
+           <Image src="/images/Amazon-512.webp" alt="img" width={20} height={20} />
+          </div>
+          <div className="">
+            <Image src="/images/tiktok-shop-logo-png.webp" alt="img" width={20} height={20} />
+          </div>
+          <div className="">
+            <Image src="/images/Walmart-Logo-PNG-Photos.png" alt="img" width={20} height={20} />
           </div>
         </div>
       </div>
+
+
       {/* second section flip */}
-      <div>
+      {/* <div>
         <div
           className="text-white text-center font-title mt-44 pl-[480px] mx-auto  w-full max-w-[1440px] 
              flex-wrap  max-md:w-[75%] max-md:text-center max-md:pl-28 max-md:mt-11 "
@@ -140,7 +148,7 @@ const Project = () => {
             <Image src="/Image/Group.png" alt="img" width={20} height={20} />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

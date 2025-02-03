@@ -1,57 +1,40 @@
+import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className="text-[white]">
-      <div className="container grid items-center md:grid-cols-2 grid-cols-1 relative">
-        <div>
+    <div className=" text-white"> 
+      <div className='container py-10'>
+        <div className='grid lg:grid-cols-2 gap-6 items-center w-full md:text-start text-center '>
           <div>
-            <div className="absolute ml-16 mt-8 max-sm:mt-5 z-10">
-              <Image
-                src="/Image/Gradient(3).png"
-                alt="gradient image"
-                className="max-sm:w-[150px] max-sm:h-[150px]"
-                width={230}
-                height={10}
-              />
+            <div className="sm:text-[11px] text-[9px] flex md:justify-start justify-center gap-5 ">
+              <p className='tracking-[8px]'>MAZHAR IQBAL</p>
             </div>
-            <h1 className="lg:text-5xl md:text-5xl font-bold pt-24 max-md:text-2xl max-w-[440px] max-sm:pt-9">
-              I am your <span className="text-sky-200">full-stack</span>{" "}
-              wizard, turning <span className="text-sky-200">web dreams</span>{" "}
-              into reality.
+            <h1 className='sm:text-5xl text-[30px] font-semibold  md:w-[400px] leading-tight pt-2 '>
+        I AM <span className="text-blue-900">{`SPECIALIST`}</span> IN ECOMERCE
             </h1>
-            <p className="text-sm mb-10 mt-12 max-sm:mt-5 max-lg:text-[14px] lg:text-lg lg:max-w-[440px]">
-              Crafting seamless digital experiences from{" "}
-              <span className="font-semibold">front-end elegance</span> to{" "}
-              <span className="font-semibold">back-end robustness</span>, I bring
-              your web visions to life as a versatile full-stack developer.
-            </p>
-            <button className="text-[black] hover:text-[black] hover:bg-[#763CAC] bg-[#B1C7FF] px-10 py-2 rounded">
-              Project
-            </button>
+            <h3 className='sm:text-[14px] text-base md:w-[450px] py-10'>
+          {`An e-commerce specialist managing stores on TikTok Shop, Walmart, eBay,
+           and Amazon. With expertise in online selling, I help businesses grow through
+            effective product listings 
+          and marketing strategies. Let,s scale your e-commerce success together! 
+
+`}            </h3>
+            <Link  href='/work' className='bg-orange-400 text-[12px] py-3 px-5 '>
+              SEE WORK
+            </Link>
+          </div>
+          <div className='mt-10'>
+            <Image
+              src="/images/eCommerce-Website-Components-photo.jpg"
+              alt="XX99 MARK II HEADPHONES"
+              className="object-cover rounded-lg w-full"
+              width={645}
+              height={300}
+            />
           </div>
         </div>
-
-        <div className="w-full flex justify-center items-center">
-          <Image
-            src="/Image/img1.png"
-            alt="main image"
-            layout="responsive"
-            width={750}
-            height={100}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-
-      <div className="line flex justify-center items-center mt-[-190px] max-md:hidden">
-        <Image
-          src="/Image/Line 1.png"
-          alt="line image"
-          height={500}
-          width={1000}
-          className=""
-        />
       </div>
     </div>
   );

@@ -1,71 +1,49 @@
-
-
+import React from 'react'
 import Image from "next/image";
-
-const Second =() => {
+const Second = () => {
   return (
-    <div>
-      <div className="text-[white]">
-        <div className="container grid  lg:grid-cols-2 grid-cols-1  lg:gap-96   ">
-          <div>
-            <div className="">
-           
-              <h1 className="lg:text-5xl md:text-3xl  font-extrabold pt-[100px] max-lg:text-[25px] ">
-              {` Hello!`}
-             </h1>
-            
-             <h1 className="lg:text-4xl md:text-3xl font-extrabold pt-2  ">
-              I am <span className="text-sky-200">Hadia Khalil.</span>
-            </h1>
-            <p className="  mb-12 mt-12 max-lg:text-[15px] max-sm:mt-4 lg:max-w-[440px]">
-            I am a passionate and dedicated full-stack web developer with a
-              knack for turning ideas into beautifully functional websites and
-              applications. With expertise in both{" "}
-              {`front-end and back-end technologies,`} I bring creativity and
-              precision to every project. My commitment to staying{" "}
-              {`up-to-date`} with the latest industry trends and my{" "}
-              {`problem-solving`} skills make me a valuable asset in delivering
-              innovative digital solutions. {`let's`} collaborate and bring your
-              web vision to life.
-            </p>
-            {/* <div className=" absolute   ">
-                <Image
-                  src="/Image/Gradient(3).png"
-                  alt="my image"
-                  className=""
-                  width={230}
-                  height={10}
-                />
-              </div> */}
-            </div>
-           
-          </div>
-<div className="lg:mt-14 flex justify-center">
-          <div >
-          <Image
-             src="/Image/img2.png"
-             alt="my image"
-             width={350}
-               height={100}
-             className=""
-           />
-          </div>
-          {/* <div className=" absolute   max-sm:mt-5">
-                <Image
-                  src="/Image/Gradient(3).png"
-                  alt="my image"
-                  className=" max-sm:w-[150px] max-sm:h-[150px]"
-                  width={230}
-                  height={10}
-                />
-              </div> */}
-              </div>
+  <>
+   <div className='container text-white py-10'>
 
-        </div>
+          <div className='grid lg:grid-cols-2 gap-6 items-center w-full md:text-start text-center py-10'>
+          
+            <div className="">
+
+<h1 className="lg:text-5xl md:text-3xl   text-2xl font-extrabold  text-white ">
+         {` Hello !`}
+</h1>
+<h1 className="lg:text-4xl md:text-3xl text-2xl  font-extrabold  pt-2 max-w-[440px] max-lg:text-[25px] ">
+  I am <span className="text-blue-800">Mazhar Iqbal.
+    
+  </span>
+</h1>
+<h3 className='sm:text-[14px] text-base md:w-[450px] py-8'>
+
+{` I focus on store management, product optimization, and sales growth. Helping businesses 
+thrive in the online marketplace is my passion! With expertise in product listing, optimization, and store management, I help businesses maximize sales.
+
+ I handle every aspect with precision.
+, I turn ideas into successful ventures.
+Let’s grow your e-commerce brand and achieve long-term success together!`}
+</h3>
+</div>
+<div >
+              <Image
+                src="/images/Ecommerce.jpg"
+                alt="Ecommerce"
+                className="object-cover rounded-lg w-full"
+                width={645}
+                height={300}
+              />
+            </div>
+</div>
+
+
+            
+          </div>
        
-      </div>
-    </div>
-  );
-};
+  </>
+  )
+}
 
 export default Second

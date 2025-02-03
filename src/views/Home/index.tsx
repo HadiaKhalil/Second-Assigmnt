@@ -8,6 +8,7 @@ import Lastsection from "./Lastsection";
 import Form from "./Form";
 
 import Layout from "@/components/Layout";
+import Work from "./Work";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Myproject />
       <Lastsection />
       <Form />
+      <Work />
     </Layout>
   );
 };

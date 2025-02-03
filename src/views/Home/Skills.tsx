@@ -3,17 +3,17 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div>
-      <div className=" mx-auto w-full max-w-[1440px] ">
+      <div className="container">
         <h1 className="  text-white  font-bold font-title  text-[40px] text-center pt-20 max-sm:text-[30px] ">
-          Skills
+          MY WORK
         </h1>
-        <div className=" flex justify-center items-center mt-16 max-sm:my-8  max-sm:px-6 ">
+        <div className=" flex justify-center items-center mt-5 ">
           <Image
-            src="/Image/Skills(1).png"
+            src="/images/Screenshot 2025-01-14 112710(1).jpg"
             alt="img"
-            width={750}
-            height={750}
-            className="max-sm:w-[280px]"
+            width={950}
+            height={950}
+            className="w-full"
           />
         </div>
       </div>

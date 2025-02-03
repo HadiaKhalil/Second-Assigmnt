@@ -14,15 +14,16 @@ const Cards = () => {
         <div className=" flex justify-center px-2  z-10  mx-auto pt-7 flex-wrap gap-8  text-white">
           <div className="z-10">
             <Image
-              src="/Image/Rectangle 974.png"
+              src="/images/Rectangle 974.png"
               alt="my image"
               width={590}
               height={60}
               className="rounded-t-lg"
             />
             <div className="text flex  rounded-b-lg z-10 max-sm:h-[130px] ">
+           
               <Image
-                src="/Image/Group 1.png"
+                 src="/images/118691_ebay_512x512.png"
                 alt="my image"
                 width={80}
                 height={60}
@@ -34,20 +35,22 @@ const Cards = () => {
                   className="text-[20px] mb-[16px]  lg:mt-5 leading-5
               max-w-[200px] pl-4  max-sm:text-[16px]  "
                 >
-                  1 year in maxinux solution
+                  Experience of 3 years With the vast 
                 </p>
 
                 <p className=" text-[12px]  max-w-[350px] pl-4  max-sm:pb-5 max-sm:text-[9px]">
                   {" "}
-                  {`have 1 year of experience at Cubix Solutions, honing
-                                    my skills in web development`}
+                  {`Ebay 
+A to Z store management, inventory management,
+Customer support care,
+Account health assurance.`}
                 </p>
               </div>
             </div>
           </div>
           <div className="z-10">
             <Image
-              src="/Image/Rectangle 974.png"
+              src="/images/Rectangle 974.png"
               alt="my image"
               width={583}
               height={60}
@@ -59,7 +62,7 @@ const Cards = () => {
             >
               <div>
                 <Image
-                  src="/Image/pic4 (3).png"
+                  src="/images/Amazon-512.webp"
                   alt="my image"
                   width={80}
                   height={60}
@@ -68,13 +71,17 @@ const Cards = () => {
               </div>
               <div>
                 <p className="text-[20px] mb-[16px]  mt-4 leading-5  max-w-[200px] pl-4 max-sm:text-[17px]  ">
-                  1 year in Cubix solution
+                Experience of 3 years With the vast 
                 </p>
 
                 <p className="text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px] ">
                   {" "}
-                  {`have 1 year of experience at Cubix Solutions, honing
-                                    my skills in web development`}
+                  {`Amazon
+FBM & FBA
+Private labelling, 
+PPC. 
+Sourcing from authentic Distributor, 
+Brand approval`}
                 </p>
               </div>
             </div>
@@ -86,7 +93,7 @@ const Cards = () => {
         >
           <div className="z-10">
             <Image
-              src="/Image/Rectangle 974.png"
+              src="/images/Rectangle 974.png"
               alt="my image"
               width={590}
               height={60}
@@ -95,7 +102,7 @@ const Cards = () => {
             <div className=" text2 flex  rounded-b-lg z-10   ">
               <div>
                 <Image
-                  src="/Image/pic4 (2).png"
+                   src="/images/tiktok-shop-logo-png.webp"
                   alt="my image"
                   width={90}
                   height={60}
@@ -103,19 +110,21 @@ const Cards = () => {
                 />
               </div>
               <div >
-                <p className="lg:text-[12px] mb-[16px]  mt-4 leading-5  pl-4">
-                  {`2+ year in Freelancing`}</p>
+              <p className="text-[20px] mb-[16px]  mt-6 leading-5  max-w-[200px] pl-4">
+                Experience of 3 years With the vast 
+                </p>
                 <p className="text-[12px]  max-w-[350px] pl-4  max-sm:text-[9px]">
                   {" "}
-                  {`I have gained invaluable experience over the past year
-                                    through freelancing, working on diverse projects and expanding my skill set.`}
+                  {`TikTok Shop Store A to Z management.TikTok Shop USA& UK. 
+Drop shipping, 
+White labelling`}
                 </p>
               </div>
             </div>
           </div>
           <div className="z-10">
             <Image
-              src="/Image/Rectangle 974.png"
+              src="/images/Rectangle 974.png"
               alt="my image"
               width={583}
               height={60}
@@ -124,7 +133,7 @@ const Cards = () => {
             <div className=" text3 flex   rounded-b-lg z-10">
               <div>
                 <Image
-                  src="/Image/pic4 (1).png"
+                  src="/images/Walmart-Logo-PNG-Photos.png"
                   alt="my image"
                   width={90}
                   height={60}
@@ -133,17 +142,21 @@ const Cards = () => {
               </div>
               <div >
                 <p className="text-[20px] mb-[16px]  mt-6 leading-5  max-w-[200px] pl-4">
-                  1 year in Cubix solution
+                Experience of 3 years With the vast 
                 </p>
                 <p className="text-[12px] max-w-[350px] pl-4  max-sm:text-[9px]">
-                  {`have 1 year of experience at Cubix Solutions, honing my skills in web development`}
+                  {`Walmart Store A to Z management.
+Seller fulfilment, WFS,
+inventory Management,
+Customer Support care, 
+Sourcing from authentic distributor.`}
                 </p>
               </div>
             </div>
           </div>
           <div className=" absolute ">
             <Image
-              src="/Image/Gradient(3).png"
+              src="/images/Gradient(3).png"
               alt="my img"
               height={350}
               width={420}

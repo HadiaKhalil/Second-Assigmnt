@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="w-full text-center lg:text-start">
          
               
-            <div className='flex '>
-            <div className='text-[35px] font-semibold'>
+            <div className='flex gap-1 '>
+            <div className='text-[57px] font-semibold'>
             MI
           </div>
-          <div className='leading-[15px] pt-3 font-serif'>
+          <div className='leading-[24px] text-[20px] pt-5 font-serif'>
           <p>Ecomerce</p>
           <p>Freelancing</p>
        
@@ -23,43 +23,37 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="md:text-[13px] text-[11px] lg:w-[430px]  py-3"> 
-              {` I focus on store management, product optimization, and sales growth. Helping businesses 
-thrive in the online marketplace is my passion! With expertise in product listing, optimization, and store management, I help businesses maximize sales.
-
- I handle every aspect with precision.
-, I turn ideas into successful ventures.
-Let’s grow your e-commerce brand and achieve long-term success together!`}
+              {`We proud to be a part of a dynamic ..... members team working  e-commerce success
+               across multiple platforms, including Walmart, TikTok Shop, eBay, and Amazon. Collaborating 
+               with a talented team, I contribute to strategic planning, execution, and optimization of
+                e-commerce operations. Our team's collective expertise and passion for innovation enable us 
+                to stay ahead of the curve and achieve exceptional results. Together, we're redefining the 
+                e-commerce landscape. Teamwork, dedication, and a customer-centric
+               approach are the cornerstones of our success."`}
               </h3>
              
             </div>
           </div>
-          <div className="flex flex-col items-center lg:items-end "> 
-            <div className="flex text-[12px] gap-6"> 
+          <div className="flex flex-col items-center lg:items-end pt-8 "> 
+            <div className="flex text-[15px] gap-6 font-semibold"> 
             <p className="cursor-pointer">TIKTOKSHOP</p>
               <p className="cursor-pointer text-orange-500">WALMART</p>
               <p className="cursor-pointer">AMAZON</p>
               <p className="cursor-pointer">EBAY</p>
             </div>
-            <div className="flex gap-3 py-8  lg:items-end "> 
-              <div className="cursor-pointer text-white hover:text-orange-700"><FaFacebook size={20} /></div>
-              <div className="cursor-pointer text-white hover:text-orange-700"><FaTwitter size={20} /></div>
-              <div className="cursor-pointer text-white hover:text-orange-700"><FaInstagramSquare size={20} /></div>
+            <div className="flex gap-3 py-8  lg:items-end  "> 
+              <div className="cursor-pointer text-white hover:text-orange-700"><FaFacebook size={40} /></div>
+              <div className="cursor-pointer text-white hover:text-orange-700"><FaTwitter size={40} /></div>
+              <div className="cursor-pointer text-white hover:text-orange-700"><FaInstagramSquare size={40} /></div>
             </div>
           </div>
         </div>
-        <div className=' items-center text-center grid md:grid-cols-4'>
-        <h3 className='md:text-[13px] text-[11px]'>
-                Copyright 2025. All Rights Reserved
-              </h3>
-              <h3 className='md:text-[13px] text-[11px]'>
-              {`  For contact---  >`}</h3>
-                <h3 className='md:text-[13px] text-[11px]'>
-                  03467956682</h3>
-                  <h3 className='md:text-[13px] text-[11px]'>
-                  preciousmalik7797@gmail.com</h3>
-
-        </div>
-      
+     <hr></hr>
+      <div className='text-center text-[13px] font-sans font-semibold'>
+        <h1>  Mazhar Iqbal /    Adnan Ahmad </h1>
+        <h1> Email Address: preciousmalik7797@gmail.com</h1>
+        <h1 className='font-sans'>  Contact Info:  03467956682 /  03457880836</h1>
+      </div>
       </div>
     </div>
       

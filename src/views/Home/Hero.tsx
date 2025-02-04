@@ -2,6 +2,9 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 
+
+
+
 const Hero = () => {
   return (
     <div className=" text-white"> 
@@ -9,12 +12,19 @@ const Hero = () => {
         <div className='grid lg:grid-cols-2 gap-6 items-center w-full md:text-start text-center py-5'>
           <div>
             <div className="sm:text-[11px] text-[9px] flex md:justify-start justify-center gap-5 ">
-              <p className='tracking-[8px]'>MAZHAR IQBAL</p>
+              <p className='tracking-[8px]'>{`WELCOME!`}</p>
             </div>
-            <h1 className='sm:text-5xl text-[30px] font-semibold  md:w-[400px] leading-tight pt-2 '>
-        I AM <span className="text-blue-900">{`SPECIALIST`}</span> IN ECOMERCE
+         <h1 className=' md:text-5xl text-[30px] font-semibold text-orange-400 PY-8 '>{` HELLO! I AM`}</h1>
+            <h1 className="
+             animate-typing 
+             text-[30px] font-semibold">
+  <span className="text-blue-900">{`MAZHAR IQBAL`}</span>
+</h1>
+<h1 className=' md:text-2xl text-[30px] font-semibold py-1 px-3'>
+            (SPECIALIST IN ECOMMERCE)
             </h1>
-            <h3 className='sm:text-[14px] text-[11px] md:w-[450px] sm:py-10 py-4'>
+<h1 className=' text-[30px] font-semibold'></h1>
+            <h3 className='sm:text-[14px] text-[11px] md:w-[450px] sm:py-4 py-4'>
           {`An e-commerce specialist managing stores on TikTok Shop, Walmart, eBay,
            and Amazon. With expertise in online selling, I help businesses grow through
             effective product listings 

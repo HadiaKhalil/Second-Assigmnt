@@ -78,77 +78,7 @@ I have hands-on experience with platforms like Amazon, eBay.`}
       </div>
 
 
-      {/* second section flip */}
-      {/* <div>
-        <div
-          className="text-white text-center font-title mt-44 pl-[480px] mx-auto  w-full max-w-[1440px] 
-             flex-wrap  max-md:w-[75%] max-md:text-center max-md:pl-28 max-md:mt-11 "
-        >
-          <h1 className=" text0 text-[17px] max-sm:text-[12px] ml-20">
-            Featured Project
-          </h1>
-          <h1 className="text-[26px]  max-sm:text-[20px] font-bold font-title">
-            Example Project
-          </h1>
-        </div>
-        <div className="relative flex justify-center ">
-          <div
-            className="ml-[-200px]  mt-[-100px] absolute   max-sm:ml-[20px] max-sm:mt-[-30px] 
-        "
-          >
-            <Image
-              src="/Image/Gradient(3).png"
-              alt="img"
-              width={350}
-              height={200}
-            />
-          </div>
-          <div
-            className="ml-[-330px] mt-[-100px] absolute max-sm:hidden
-         "
-          >
-            <Image
-              src="/Image/Gradient(3).png"
-              alt="img"
-              width={350}
-              height={200}
-            />
-          </div>
-        </div>
-
-        <div className="flex  justify-center relative max-md:flex-col max-md:items-center max-sm:mt-5">
-          <div className="max-sm:w-[300px]">
-            <Image
-              src="/Image/Mask group.png"
-              alt="img"
-              width={350}
-              height={200}
-            />
-          </div>
-          <div
-            className="containtr  text-[13px] text-white max-w-[460px] w-[800px] rounded-t-lg rounded-b-lg
-             h-[140px] py-7 px-10 mt-12 max-sm:w-[300px] max-sm:py-4 max-sm:px-10 max-sm:text-[11px] max-sm:mt-8 "
-          >
-            {` A web app for visualizing personalized Spotify data. View your
-                        top artists, top tracks, recently played tracks, and detailed audio
-                        information about each track. Create and save new playlists of
-                        recommended tracks based on your existing playlists and more.`}
-          </div>
-        </div>
-        <div className="flex  justify-center gap-3 ml-[696px] max-sm:ml-36 max-sm:mt-4 max-sm:gap-3">
-          <div className="">
-            <Image
-              src="/Image/Vector(2).png"
-              alt="img"
-              width={20}
-              height={20}
-            />
-          </div>
-          <div className="">
-            <Image src="/Image/Group.png" alt="img" width={20} height={20} />
-          </div>
-        </div>
-      </div> */}
+   
     </div>
   );
 };

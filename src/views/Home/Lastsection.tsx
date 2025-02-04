@@ -35,23 +35,23 @@ const Lastsection = () => {
             effective product listings 
           and marketing strategies. Let,s scale your e-commerce success together! 
 
-`}  </p>
+`} 
+ </p>
               <p className=" text-[11px] mt-9  px-6 text-white font-title">
                 Mazhar Iqbal
               </p>
-              <p className=" text-[9px] mt-1 px-6 text-white font-title pb-20">
+              <p className=" text-[9px] mt-1 px-6 text-white font-title pb-2">
               03467956682
+              </p>
+              <p className=" text-[11px]  px-6 text-white font-title">
+                Adnan Ahmad
+              </p>
+              <p className=" text-[9px] mt-1 px-6 text-white font-title pb-20">
+              03457880836
               </p>
             </div>
           </div>
-          <div className="ml-[500px] mt-[-500px] max-sm:w-[300px] max-sm:h-[300px] max-md:ml-36 max-md:mt-[-600px] max-sm:ml-10 max-sm:mt-[-500px] ">
-            <Image
-              src="/Image/Gradient(3).png"
-              alt="img"
-              width={400}
-              height={400}
-            />
-          </div>
+        
         </div>
       </div>
   

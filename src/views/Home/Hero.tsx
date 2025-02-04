@@ -17,10 +17,10 @@ const Hero = () => {
          <h1 className=' md:text-5xl text-[30px] font-semibold text-orange-400 PY-8 '>{` HELLO! I AM`}</h1>
             <h1 className="
              animate-typing 
-             text-[30px] font-semibold">
+              md:text-[49px] text-[26px] font-semibold">
   <span className="text-blue-900">{`MAZHAR IQBAL`}</span>
 </h1>
-<h1 className=' md:text-2xl text-[30px] font-semibold py-1 px-3'>
+<h1 className=' md:text-2xl text-[20px] font-semibold py-1 px-3'>
             (SPECIALIST IN ECOMMERCE)
             </h1>
 <h1 className=' text-[30px] font-semibold'></h1>

@@ -91,7 +91,7 @@ body {
   overflow: hidden; /* Ensures text appears as it's typed */
   border-right: 0.10em solid blue; /* Creates typing cursor */
   white-space: nowrap;
-  font-size: 3rem;
+ 
   animation: typing 1.6s steps(20, end) forwards, blink 0.7s infinite;
   margin-top: 20px;
   padding: 7px;

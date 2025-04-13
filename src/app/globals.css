@@ -23,10 +23,10 @@ body {
 }
 .container{
   @apply  mx-auto
-  lg:px-4 px-4;
+  px-4;
 
 }
 
 body{
-  background-color: #ededed;
+  background-color: white;
 }
